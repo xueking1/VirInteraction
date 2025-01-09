@@ -130,14 +130,6 @@ You can use the evaluation function we wrote ([KITTI_distance_eval](https://pan.
 python kitti_object_eval_python_by_distance/evaluate.py --pred_infos output/models/kitti/VirConv-S-withdiacard-0.15/default/eval/eval_with_train/epoch_5/val/result.pkl--gt_infos./data/kitti/kitti_infos_val.pkl--save_path./distance/
 ```
 
-### Multi-media file
-
-You can download the following media resources through our Baidu cloud:
-
-1. Visual pictures of FgVD and Se-Sampling
-2. Supplementary Materials
-3. code
-
 #### Acknowledgement
 
 * This work is built upon the `OpenPCDet`. Please refer to the official github repositories, [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) , [Focals Conv](https://github.com/dvlab-research/FocalsConv/tree/master)and [CenterPoint](https://github.com/tianweiy/CenterPoint) for more information.We use the KDE implementation from [PointConv](https://github.com/DylanWusee/pointconv).
