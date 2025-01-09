@@ -20,7 +20,7 @@ The detection frameworks are shown below.
 
 #### Visualization of voxel distribution of VirInteraction:
 
-![loadingag1489](./tools/image/vision_difference.png)
+![loadingag1489](./tools/image/vision_difference.png)
 
 ## Getting Started
 
