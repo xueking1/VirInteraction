@@ -62,34 +62,6 @@ PENet: You can generate PENet data sets from [Virconv](Virconv.md).
 
 We have added additional completion methods to generate virtual points, which you can download and install by following the links provided. Finally, virtual points are generated according to the instructions provided under each method.
 
-[CompletionFormer](https://pan.baidu.com/s/1GfV_PK2YVpf0Myctp0YhDA?pwd=04if):
-
-```
-python src/main.py --dir_data data/KITTI_DC --data_name KITTIDC --split_json data_json/kitti_dc.json --patch_height 240 --patch_width 1216 --gpus 0 --max_depth 90.0 --top_crop 100 --test_crop --save_image --test_only --pretrain pretrained/KITTIDC_L1L2.pt --save save/L1L2 --save_result_npy_only --detpath data/kitti/semi
-```
-
-[DySPN](https://pan.baidu.com/s/1TdF1P1NlaCaKG42eRnBV9A?pwd=jk3a): 
-
-```
-python lit_kitti_semi.py -d ./dataset/kitti/semi/
-```
-
-[TWISE](https://pan.baidu.com/s/1kLyjNsJZieyovMpqT03FKQ?pwd=cpun): 
-
-```
- python Codes/evaluate.py --data-folder ../Data/kitti/semi --dataset kitti
-```
-
-[LRRU](https://pan.baidu.com/s/1BC2q3rcWAImIauaVVufNbA?pwd=78xc): 
-
-```
-python val.py -c val_lrru_base_kitti.yml --save_virtual --dataset kitti -d ./data/kitti/semi/
-```
-
-It is worth noting that you need to generate the corresponding virtual points for the data sets in the ***semi***, ***training***, and ***testing*** folders at the same time.  Like ***semi*** above, ***training*** and ***testing*** only need to change the corresponding path to generate virtual points. Such as:
-    # LRRU
-    python val.py -c val_lrru_base_kitti.yml --save_virtual --dataset kitti -d ./data/kitti/training/
-
 ### Installation
 
 (1)OpenPCDet
@@ -127,7 +99,39 @@ cd tools
 python demo.py --cfg_file cfgs/models/kitti/VirInteraction.yaml --ckpt ../output/models/kitti/cnn-cross/checkpoint_epoch_5.pth --frame_id 000008
 ```
 
-### Test in different distance
+## How to generate the virtual points?
+
+
+[CompletionFormer](https://pan.baidu.com/s/1GfV_PK2YVpf0Myctp0YhDA?pwd=04if):
+
+```
+python src/main.py --dir_data data/KITTI_DC --data_name KITTIDC --split_json data_json/kitti_dc.json --patch_height 240 --patch_width 1216 --gpus 0 --max_depth 90.0 --top_crop 100 --test_crop --save_image --test_only --pretrain pretrained/KITTIDC_L1L2.pt --save save/L1L2 --save_result_npy_only --detpath data/kitti/semi
+```
+
+[DySPN](https://pan.baidu.com/s/1TdF1P1NlaCaKG42eRnBV9A?pwd=jk3a): 
+
+```
+python lit_kitti_semi.py -d ./dataset/kitti/semi/
+```
+
+[TWISE](https://pan.baidu.com/s/1kLyjNsJZieyovMpqT03FKQ?pwd=cpun): 
+
+```
+ python Codes/evaluate.py --data-folder ../Data/kitti/semi --dataset kitti
+```
+
+[LRRU](https://pan.baidu.com/s/1BC2q3rcWAImIauaVVufNbA?pwd=78xc): 
+
+```
+python val.py -c val_lrru_base_kitti.yml --save_virtual --dataset kitti -d ./data/kitti/semi/
+```
+
+It is worth noting that you need to generate the corresponding virtual points for the data sets in the ***semi***, ***training***, and ***testing*** folders at the same time.  Like ***semi*** above, ***training*** and ***testing*** only need to change the corresponding path to generate virtual points. Such as:
+    # LRRU
+    python val.py -c val_lrru_base_kitti.yml --save_virtual --dataset kitti -d ./data/kitti/training/
+
+
+## How to test the detection accuracy at different distances?
 
 You can use the evaluation function we wrote ([KITTI_distance_eval](https://pan.baidu.com/s/1Xl3Dqn6moiIofulQ1pd-zw?pwd=quhw)) to test the detection accuracy at different distances.
 
