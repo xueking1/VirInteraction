@@ -141,7 +141,7 @@ python kitti_object_eval_python_by_distance/evaluate.py --pred_infos output/mode
 
 ### How to calculate foreground RMSE?
 
-![foreground_RMSE](./tools/image/foreground_RMSE)
+![foreground_RMSE](./tools/image/foreground_RMSE.png)
 
 
 #### Acknowledgement
