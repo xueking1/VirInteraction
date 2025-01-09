@@ -13,7 +13,7 @@ This is the implementation of ***VirInteraction*** ,  a semantic-guided Virtual-
 
 The detection frameworks are shown below.
 
-![frame](https://github.com/xueking1/VirInteraction/edit/main/tools/image/total.png)
+![frame](./tools/image/total.png)
 
 ### Experimental results
 
