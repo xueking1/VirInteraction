@@ -12,11 +12,11 @@ The detection frameworks are shown below.
 
 ### Experimental results
 
-#### KITTI dataset
+#### KITTI val dataset
 
 | METHOD                                                        | EASY  | MOD   | HARD  |
 | ------------------------------------------------------------- | ----- | ----- | ----- |
-| [VirInteraction](tools/cfgs/models/kitti/VirInteraction.yaml) | 92.46 | 85.78 | 80.25 |
+| [VirInteraction](tools/cfgs/models/kitti/VirInteraction.yaml) | 96.34 | 90.63 | 89.01 |
 
 #### Visualization of voxel distribution of VirInteraction:
 
