@@ -2,12 +2,13 @@
 
 This is the implementation of ***VirInteraction*** ,  a semantic-guided Virtual-LiDAR fusion method to enhance the interaction of virtual points and LiDAR points. This code is mainly based on [OpenPCDet](https://github.com/open-mmlab/OpenPCDet), some codes are from [Virconv](https://github.com/hailanyi/TED), [PENet](https://github.com/JUGGHM/PENet_ICRA2021), [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/tree/main) and [PointConv](https://github.com/DylanWusee/pointconv).
 
+* [2025-01-09] The code of this paper is currently in the beta version, and its usability and readability are poor. Therefore, this code will be released after optimization.
+* [2025-01-09] The foreground RMSE calculation method used in Table I of the paper has been relased. 
+* [2025-01-09] Figure 7 in the paper has been relased.
+
 ## Detection Framework
 
 * VirInteraction: Enhancing Virutal-LiDAR Points Interaction by Using Image Semantics and Density Estimation for 3D Object Detection.
-
-The code of this paper is currently in the version, and its usability and readability are poor. Therefore, this code will be released after optimization.
-
 
 The detection frameworks are shown below.
 
