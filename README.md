@@ -8,7 +8,7 @@ This is the implementation of ***VirInteraction*** ,  a semantic-guided Virtual-
 
 The detection frameworks are shown below.
 
-![](./tools/image/total.png)
+![](./tools/image/total.png)
 
 ### Experimental results
 
