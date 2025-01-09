@@ -4,7 +4,7 @@ This is the implementation of ***VirInteraction*** ,  a semantic-guided Virtual-
 ## News
 * [2025-01-09] The code of this paper is currently in the beta version, and its usability and readability are poor. Therefore, this code will be released after optimization.
 * [2025-01-09] The foreground RMSE calculation method used in Table I of the paper has been relased.
-* [2025-01-09] How to generate virtual points by using different depth incomplete methods in Table I is open source.
+* [2025-01-09] How to generate virtual points by using different depth incomplete methods in Table I has been open source.
 * [2025-01-09] How to test the detection accuracy at different distances in Figure 7 has been relased.
 
 ## Detection Framework
