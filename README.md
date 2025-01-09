@@ -7,8 +7,6 @@ This is the implementation of ***VirInteraction*** ,  a semantic-guided Virtual-
 * [2025-01-09] **How to generate virtual points** by using different depth incomplete methods (Table I of the paper) has been open source.
 * [2025-01-09] **How to calculate foreground RMSE** (Table I of the paper) has been relased.
 
-
-
 ## Detection Framework
 
 * VirInteraction: Enhancing Virutal-LiDAR Points Interaction by Using Image Semantics and Density Estimation for 3D Object Detection.
@@ -142,6 +140,8 @@ python kitti_object_eval_python_by_distance/evaluate.py --pred_infos output/mode
 ```
 
 ### How to calculate foreground RMSE?
+
+![foreground_RMSE](https://github.com/user-attachments/assets/e88e4fb6-4d94-414f-8275-fd502162b940)
 
 
 #### Acknowledgement
