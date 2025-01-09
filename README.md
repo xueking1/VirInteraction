@@ -6,6 +6,9 @@ This is the implementation of ***VirInteraction*** ,  a semantic-guided Virtual-
 
 * VirInteraction: Enhancing Virutal-LiDAR Points Interaction by Using Image Semantics and Density Estimation for 3D Object Detection.
 
+The code of this paper is currently in the version, and its usability and readability are poor. Therefore, this code will be released after optimization.
+
+
 The detection frameworks are shown below.
 
 ![](./tools/image/total.png)
