@@ -136,7 +136,7 @@ It is worth noting that you need to generate the corresponding virtual points fo
 
 ## How to test the detection accuracy at different distances?
 
-You can use the evaluation function we wrote ([KITTI_distance_eval](https://pan.baidu.com/s/1Xl3Dqn6moiIofulQ1pd-zw?pwd=quhw)) to test the detection accuracy at different distances.
+You can use the evaluation function we wrote ([KITTI_distance_eval](https://github.com/xueking1/kitti_distance_eval)) to test the detection accuracy at different distances.
 
 ```
 python kitti_object_eval_python_by_distance/evaluate.py --pred_infos output/models/kitti/VirConv-S-withdiacard-0.15/default/eval/eval_with_train/epoch_5/val/result.pkl--gt_infos./data/kitti/kitti_infos_val.pkl--save_path./distance/
