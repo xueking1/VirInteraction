@@ -69,7 +69,7 @@ We have added additional completion methods to generate virtual points, which yo
 
 (1)OpenPCDet
 
-Please refer to [Virconv](Virconv.md) to set up libraries needed for distributed training and sparse convolution.
+Please refer to [Virconv](https://github.com/hailanyi/VirConv) to set up libraries needed for distributed training and sparse convolution.
 
 At the same time, you need to install our modified mmsegmentation.
 
