@@ -61,7 +61,7 @@ VirInteraction
 
 (2) generate virtual points
 
-PENet: You can generate PENet data sets from [Virconv](Virconv.md).
+PENet: You can generate PENet data sets from [Virconv](https://github.com/hailanyi/VirConv).
 
 We have added additional completion methods to generate virtual points, which you can download and install by following the links provided. Finally, virtual points are generated according to the instructions provided under each method.
 
